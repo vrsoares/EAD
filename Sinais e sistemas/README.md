@@ -1,10 +1,6 @@
 #Sinais e Sistemas
 
-<body>
-    <!-- 1. The <iframe> (and video player) will replace this <div> tag. -->
-    <div id="player"></div>
-
-    <script>
+<script>
       // 2. This code loads the IFrame Player API code asynchronously.
       var tag = document.createElement('script');
 
@@ -45,8 +41,7 @@
       function stopVideo() {
         player.stopVideo();
       }
-    </script>
-  </body>
+</script>
 
 <iframe id="ytplayer" type="text/html" width="640" height="360"
   src="https://youtu.be/RztCIWxQfqA"
